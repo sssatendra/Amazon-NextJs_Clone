@@ -16,7 +16,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      visibility: ['hover', 'focus']
+    },
   },
   plugins: [require("@tailwindcss/line-clamp")],
 };
